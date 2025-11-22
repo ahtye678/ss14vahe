@@ -1,11 +1,11 @@
 - type: entity
   parent: [Clothing, ContentsExplosionResistanceBase]
-  id: SpecBackpack
-  name: Kaskrin Backpack
-  description: You shit yourself.
+  id: ClothingBackpackGlovesKasrkinWH14
+  name: Ранец Касркин
+  description: Он огромный.
   components:
   - type: Sprite
-    sprite: _WH40K/Clothing/OutherClothing/backpack.rsi
+    sprite: _WH40K/Clothing/Kasrkin/Karskinbackpack.rsi
     state: icon
   - type: Item
     size: Huge

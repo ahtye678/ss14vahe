@@ -1,17 +1,17 @@
 - type: entity
   parent: ClothingHandsBase
-  id: SpecGloves
-  name: Kasrkin gloves
-  description: kys
+  id: ClothingHandsGlovesKasrkinWH14
+  name: Перчатки Касркин
+  description: Перчатки Касркины, явно крепкие и для элиты.
   components:
   - type: Sprite
-    sprite: _WH40K/Clothing/Gloves/Karskin.rsi
+    sprite: _WH40K/Clothing/Kasrkin/Kasrkingloves.rsi
   - type: Clothing
-    sprite: _WH40K/Clothing/Gloves/Karskin.rsi
+    sprite: _WH40K/Clothing/Kasrkin/Kasrkingloves.rsi
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-durathread
-    fiberColor: fibers-regal-blue
+    fiberColor: fibers-black
   - type: FingerprintMask
   - type: Armor
     modifiers:
