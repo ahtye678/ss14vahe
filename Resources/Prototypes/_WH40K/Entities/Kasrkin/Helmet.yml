@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadHelmetArmoredBase=
+  parent: ClothingHeadHelmetArmoredBase
   id: SpecHelmet
   name: Kasrkin helmet
   description: nigga nae nae
