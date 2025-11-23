@@ -1,0 +1,22 @@
+- type: entity
+  parent: [AllowSuitStorageClothingGasTanks, ClothingOuterArmorBase]
+  id: ClothingOuterArmorKasrkinWH14
+  name: flak armor Kasrkin
+  description: Strong armor Kasrkin.
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Outerclothing/Vest/Kasrkin_vest1.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Outerclothing/Vest/Kasrkin_vest1.rsi
+  - type: Armor 
+    modifiers:
+      coefficients:
+        Blunt: 0.60
+        Slash: 0.60
+        Piercing: 0.60
+        Heat: 0.60
+  - type: ExplosionResistance
+    damageCoefficient: 0.75
+  - type: ClothingSpeedModifier
+    sprintModifier: 0.85
+

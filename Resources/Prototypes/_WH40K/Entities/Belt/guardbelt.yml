@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltGuardWH14Webbing
+  name: guardmans belt
+  description: This belf for your items.
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Belt/guardbelt.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Belt/guardbelt.rsi

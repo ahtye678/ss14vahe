@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingMedicSuitWH14
+  name: medic uniform
+  description: The lives of the guardsmans are in your hands.
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Suit/medicsuit.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Suit/medicsuit.rsi
