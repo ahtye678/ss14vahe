@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltMedicWH14Webbing
+  name: medical belt
+  description: Medical belt for storing your medications.
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Belt/medicbelt.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Belt/medicbelt.rsi
