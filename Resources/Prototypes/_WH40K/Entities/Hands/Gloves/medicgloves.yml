@@ -1,0 +1,19 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesMedicWH14
+  name: medic gloves
+  description: The medic's gloves looked like they were made of leather. Warm!
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Hands/Gloves/medicgloves.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Hands/Gloves/medicgloves.rsi
+  - type: Fiber
+    fiberMaterial: fibers-leather
+    fiberColor: fibers-brown
+  - type: Insulated
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.985
+        Slash: 0.985

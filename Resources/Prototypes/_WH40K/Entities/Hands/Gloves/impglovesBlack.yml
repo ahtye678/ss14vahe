@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesImpBlackWH14
+  name: black Imperuim gloves
+  description: Black Imperuim gloves. 
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Hands/Gloves/impglovesBlack.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Hands/Gloves/impglovesBlack.rsi
+  - type: Fiber
+    fiberMaterial: fibers-leather
+    fiberColor: fibers-black
+  - type: Insulated

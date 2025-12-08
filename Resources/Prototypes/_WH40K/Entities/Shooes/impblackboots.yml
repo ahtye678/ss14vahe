@@ -1,0 +1,13 @@
+
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: ClothingShoesMilitaryBaseBrownBootsWH14
+  name: blackboots Imperium
+  description: Brown boots Imperium
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Shooes/brownboots.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Shooes/brownboots.rsi
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.75

@@ -1,0 +1,20 @@
+- type: entity
+  parent: ClothingHeadHelmetArmoredBase
+  id: ClothingHeadHelmetGuardsmanWH14
+  name: flak helmet
+  description: Flak helmet
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Head/Helmet/guardhelmet.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Head/Helmet/guardhelmet.rsi
+  - type: HideLayerClothing
+    layers:
+      Hair: HEAD
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.90
+        Heat: 0.90

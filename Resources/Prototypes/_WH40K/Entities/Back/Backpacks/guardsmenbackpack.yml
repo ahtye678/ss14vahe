@@ -1,0 +1,33 @@
+- type: entity
+  parent: [Clothing, ContentsExplosionResistanceBase]
+  id: ClothingGuadsmanbackpackWH14
+  name: guardsman backpack
+  description: You wear this on your back and put items into it.
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Back/Backpacks/Guadsmanbackpack.rsi
+    state: icon
+  - type: Item
+    size: Huge
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+  - type: Storage
+    grid:
+    - 0,0,6,3
+    maxItemSize: Huge
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: UseDelay
+    delay: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.80
+  - type: ClothingSpeedModifier
+    sprintModifier: 0.95
