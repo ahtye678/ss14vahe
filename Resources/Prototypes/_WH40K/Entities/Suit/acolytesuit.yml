@@ -1,0 +1,16 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingAcolyteSuitWH14
+  name: acolyte suit
+  description: Black acolyte suit or it also for tech priest...
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Suit/acolytesuit.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Suit/acolytesuit.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Radiation: 0.75
+        Slash: 0.95
