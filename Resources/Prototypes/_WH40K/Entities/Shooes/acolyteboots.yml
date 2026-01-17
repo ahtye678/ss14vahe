@@ -1,0 +1,11 @@
+
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: ClothingAcolyteBootsWH14
+  name: acolyte boots 
+  description: Black acolyte boots Imperium
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Shooes/acolyteboots.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Shooes/acolyteboots.rsi
