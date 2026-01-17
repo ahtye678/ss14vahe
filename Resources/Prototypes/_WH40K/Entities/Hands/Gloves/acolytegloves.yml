@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesAcolyteWH14
+  name: acolyte gloves
+  description: Acolyte gloves for your work.
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Hands/Gloves/acolyteglove.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Hands/Gloves/acolyteglove.rsi
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-durathread
+    fiberColor: fibers-black
+  - type: FingerprintMask
