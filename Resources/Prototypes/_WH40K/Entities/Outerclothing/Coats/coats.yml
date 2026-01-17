@@ -34,4 +34,44 @@
   - type: Tag
   - type: HideLayerClothing
     slots:
+
+    - Hair
+
+    
+#############################   ACOLYTE COAT  #################################
+
+- type: entity
+  parent: ClothingOuterStorageToggleableBase
+  id: ClothingOuterCoatAcolyteWH14
+  name: acolyte coat
+  description: Acolyte coat.
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Outerclothing/Coats/acolytecoat.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Outerclothing/Coats/acolytecoat.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodAcolyteWH14
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Caustic: 0.85
+        Slash: 0.90
+        Heat: 0.85
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHoodAcolyteWH14
+  categories: [ HideSpawnMenu ]
+  name: acolyte hood
+  description: This is Acolyte hood.
+  components:
+  - type: Sprite
+    sprite: _WH40K/Clothing/Head/Hood/acolytehood.rsi
+  - type: Clothing
+    sprite: _WH40K/Clothing/Head/Hood/acolytehood.rsi
+  - type: Tag
+  - type: HideLayerClothing
+    slots:
     - Hair
